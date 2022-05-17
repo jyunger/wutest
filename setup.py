@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='wutest',
+    name='wutools',
     version='0.0.1',
     author='Jason Yunger',
     author_email='jason.yunger@gmail.com',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/jyunger/wutest/issues"
     },
     license='MIT',
-    packages=['wutest'],
+    packages=['wutools'],
     install_requires=['numpy', 'pandas', 'psutils'],
 )
