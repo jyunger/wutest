@@ -17,5 +17,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['wutools'],
-    install_requires=['numpy', 'pandas', 'psutil'],
+    install_requires=['numpy', 'pandas', 'psutil', 'pyathena'],
 )
