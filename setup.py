@@ -17,5 +17,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['wutools', 'wutools.ml'],
-    install_requires=['numpy', 'pandas', 'psutil', 'pyathena', 'graphviz],
+    install_requires=['numpy', 'pandas', 'psutil', 'pyathena', 'graphviz'],
 )
