@@ -2,8 +2,8 @@
 import numpy
 import pandas, re
 
-import tools as unclassified
-from tools import box
+import wutool.tools as unclassified
+from wutools.tools import box
 
 
 def df_to_ns(df, globalz={}):
