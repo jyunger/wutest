@@ -4,7 +4,7 @@ https://drive.google.com/file/d/1EmlYAndiCedmajZIjufkc4-ExK4Cj9pf/view?usp=shari
 """
 import itertools
 
-import unclassified
+import wutools.tools as unclassified # legacy. New code should use tools directly
 
 
 class PTNet:

@@ -2,7 +2,7 @@
 
 import graphviz
 
-from ml import sequence
+from wutools.ml import sequence
 
 
 def apriori_to_graph(d_apriori):

@@ -4,10 +4,10 @@ import re
 
 import pandas
 
-import digraph
-import unclassified
-from digraph import Digraph
-from unclassified import get_logger
+from wutools import digraph
+import wutools.tools as  unclassified # legacy rename. new code should use tools directly
+from wutools.digraph import Digraph
+from wutools.tools import get_logger
 
 LOGGER = get_logger('ml.sequence')
 
