@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/jyunger/wutest/issues"
     },
     license='MIT',
-    packages=setuptools.findpackages(),
+    packages=setuptools.find_packages(),
     install_requires=['numpy', 'pandas', 'psutil', 'pyathena', 'graphviz'],
 )
