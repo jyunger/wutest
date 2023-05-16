@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='wutools',
-    version='0.0.1',
+    version='0.0.2',
     author='Jason Yunger',
     author_email='jason.yunger@gmail.com',
     description='Testing installation of Package',
@@ -17,5 +17,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=setuptools.find_packages(),
-    install_requires=['numpy', 'pandas', 'psutil', 'pyathena', 'graphviz'],
+    install_requires=['numpy', 'pandas', 'psutil', 'pyathena', 'graphviz', 'sqlalchemy', 'sqlparse'],
 )
