@@ -2,6 +2,7 @@ import gzip
 import hashlib
 import os
 import pickle
+import re
 import sqlalchemy
 import sqlparse
 import urllib
