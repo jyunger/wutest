@@ -50,9 +50,9 @@ def get_event_data(query, conn, store_dir=None, tag=None):
                 print(f"reading from {fname}")
                 return pickle.load(f)
         except:
-            pass
+            print(f"could not load {fname}\nloading from db")
+
     with conn.cursor() as cursor:
-        print(f"could not load {fname}\nloading from db")
         result = cursor.execute(query)
         result_set = result.fetchall()
         column_names = [desc[0] for desc in cursor.description]
